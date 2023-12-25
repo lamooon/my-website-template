@@ -29,6 +29,7 @@ img {
         align-items: center;
         margin-left: auto;
         padding: 16px;
+        margin-right: 8px;
     }
 }
 
@@ -76,7 +77,7 @@ img {
 
 .body-container-2 {
     margin-bottom: 30px;
-    
+
     h3 {
         font-size: 36px;
         font-weight: 1000;
@@ -122,4 +123,47 @@ img {
         font-size: 18px;
         margin-right: 10px;
     }
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .subcontainer {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        margin: 50px 200px;
+        background-color: #3882F6;
+        color: #E5E7EB;
+        border-radius: 8px;
+    }
+
+    .texts {
+        padding: 0px;
+        margin: 50px 80px 50px 50px;
+    }
+    .action {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .signup-bottom {
+        margin-left: auto;
+        background-color: #3882F6;
+        border: 2px solid #fff;
+        color: #E5E7EB;
+        border-radius: 8px;
+        cursor: pointer;
+        padding: 8px 16px;
+        color:#F9FAF8;
+        margin-right: 100px;
+        font-size: 18px;
+    }
+}
+
+.footer {
+
+    
 }
