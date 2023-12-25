@@ -75,7 +75,8 @@ img {
 }
 
 .body-container-2 {
-
+    margin-bottom: 30px;
+    
     h3 {
         font-size: 36px;
         font-weight: 1000;
@@ -101,5 +102,24 @@ img {
         flex-wrap: wrap;
         text-align: center;
         gap: 52px;
+    }
+}
+
+.body-container-3 {
+    background-color: #E5E7EB;
+    padding: 50px 250px 20px 250px;
+
+    .quote {
+        font-size: 36px;
+        font-style: italic;
+        color: #1F2937;
+        
+    }
+
+    .name {
+        text-align: right;
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 10px;
     }
 }
